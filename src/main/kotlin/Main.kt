@@ -6,8 +6,8 @@ fun main() {
     salary (7,1500)
 }
 
-    fun salary(num1:Int, num2:Int):Int{
-        var total = num1 * num2
+    fun salary(numOfHours:Int, hourlyRate:Int):Int{
+        var total = numOfHours * hourlyRate
         println (total)
         return total
     }
